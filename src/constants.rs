@@ -1,8 +1,8 @@
-use zokrates_field::{ Field, Bn128Field };
+use zokrates_field::{Bn128Field, Field};
 
 pub struct Constants {
     pub POSEIDON_C: Vec<Vec<Bn128Field>>,
-    pub POSEIDON_M: Vec<Vec<Vec<Bn128Field>>>
+    pub POSEIDON_M: Vec<Vec<Vec<Bn128Field>>>,
 }
 
 impl Default for Constants {
@@ -3399,4 +3399,3 @@ impl Default for Constants {
         }
     }
 }
-
